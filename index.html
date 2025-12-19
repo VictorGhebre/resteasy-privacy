@@ -11,143 +11,116 @@
             box-sizing: border-box;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
             background-color: #000000;
             color: #FFFFFF;
             line-height: 1.6;
-            min-height: 100vh;
+            padding: 40px 20px;
         }
         .container {
-            max-width: 680px;
+            max-width: 700px;
             margin: 0 auto;
-            padding: 48px 24px;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 48px;
-        }
-        .logo {
-            font-size: 48px;
-            margin-bottom: 8px;
-        }
-        .app-name {
-            font-size: 28px;
-            font-weight: 700;
-            color: #FFFFFF;
-            margin-bottom: 8px;
-        }
-        .tagline {
-            font-size: 14px;
-            color: #8E8E93;
         }
         h1 {
-            font-size: 24px;
-            font-weight: 600;
             color: #39FF14;
+            font-size: 2.5rem;
+            margin-bottom: 8px;
+        }
+        .effective-date {
+            color: #EBEBF5;
+            font-size: 0.9rem;
             margin-bottom: 24px;
-            text-align: center;
+        }
+        .summary {
+            background-color: #1C1C1E;
+            border-left: 4px solid #39FF14;
+            padding: 16px;
+            margin-bottom: 32px;
+            border-radius: 0 8px 8px 0;
         }
         h2 {
-            font-size: 18px;
-            font-weight: 600;
-            color: #FFFFFF;
+            color: #39FF14;
+            font-size: 1.3rem;
             margin-top: 32px;
             margin-bottom: 12px;
         }
         p {
-            color: #E5E5E7;
+            color: #EBEBF5;
             margin-bottom: 16px;
         }
         ul {
-            color: #E5E5E7;
+            color: #EBEBF5;
+            margin-left: 24px;
             margin-bottom: 16px;
-            padding-left: 24px;
         }
         li {
             margin-bottom: 8px;
         }
-        .highlight {
-            background-color: #1C1C1E;
-            border-left: 3px solid #39FF14;
-            padding: 16px 20px;
-            margin: 24px 0;
-            border-radius: 8px;
-        }
-        .highlight p {
-            margin-bottom: 0;
-            color: #FFFFFF;
-        }
-        .contact {
-            text-align: center;
-            margin-top: 48px;
-            padding-top: 32px;
-            border-top: 1px solid #2C2C2E;
-        }
-        .contact a {
+        a {
             color: #39FF14;
             text-decoration: none;
         }
-        .contact a:hover {
+        a:hover {
             text-decoration: underline;
         }
         .footer {
-            text-align: center;
             margin-top: 48px;
             padding-top: 24px;
-            border-top: 1px solid #2C2C2E;
-            color: #636366;
-            font-size: 12px;
+            border-top: 1px solid #333;
+            color: #7C7C80;
+            font-size: 0.85rem;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div class="logo">🌙</div>
-            <div class="app-name">RestEasy</div>
-            <div class="tagline">Visual peace of mind</div>
-        </div>
         <h1>Privacy Policy</h1>
-        <p><strong>Effective Date:</strong> December 14, 2024</p>
-        <div class="highlight">
-            <p><strong>Summary:</strong> RestEasy stores all your photos locally on your device. We don't collect,
-                transmit, or have access to any of your data. Your privacy is absolute.</p>
+        <p class="effective-date">Effective Date: December 18, 2024</p>
+        
+        <div class="summary">
+            <strong>Summary:</strong> RestEasy stores all your photos locally on your device. We don't collect, transmit, or have access to any of your data. Your privacy is absolute.
         </div>
+
         <h2>What Data We Collect</h2>
-        <p><strong>None.</strong> RestEasy does not collect any personal information, usage data, analytics, or
-            telemetry. We have no servers, no accounts, and no way to access your device.</p>
+        <p><strong>None.</strong> RestEasy does not collect any personal information, usage data, analytics, or telemetry. We have no servers, no accounts, and no way to access your device.</p>
+
         <h2>Photo Storage</h2>
-        <p>All photos you capture in RestEasy are stored exclusively on your device in the app's private storage. Photos
-            are:</p>
+        <p>All photos you capture in RestEasy are stored exclusively on your device in the app's private storage. Photos are:</p>
         <ul>
             <li>Never uploaded to any server</li>
             <li>Never shared with third parties</li>
             <li>Never accessible to us or anyone else</li>
             <li>Automatically deleted based on your timer settings</li>
         </ul>
-        <h2>Auto-Delete Feature</h2>
-        <p>RestEasy automatically deletes your photos at the time you configure. This happens entirely on your device.
-            Once deleted, photos cannot be recovered.</p>
+
+        <h2>Photo Deletion</h2>
+        <p>RestEasy automatically deletes your photos at the time you configure. You can also <strong>manually delete any photo at any time</strong> from within the app by tapping the Delete button on any check. Once deleted, photos cannot be recovered.</p>
+
+        <h2>On-Device Preferences</h2>
+        <p>RestEasy uses on-device storage (UserDefaults) to save your preferences, such as your auto-delete time. This data never leaves your device and is not accessible to us.</p>
+
         <h2>Camera Access</h2>
-        <p>RestEasy requests camera access solely to capture photos within the app. Camera access is not used for any
-            other purpose.</p>
+        <p>RestEasy requests camera access solely to capture photos within the app. Camera access is not used for any other purpose.</p>
+
         <h2>Purchases</h2>
-        <p>If you purchase RestEasy, the transaction is processed entirely by Apple through the App Store. We do not
-            receive or store any payment information.</p>
+        <p>If you purchase RestEasy, the transaction is processed entirely by Apple through the App Store. We do not receive or store any payment information.</p>
+
         <h2>Third-Party Services</h2>
         <p>RestEasy does not use any third-party analytics, advertising, or tracking services.</p>
+
         <h2>Children's Privacy</h2>
-        <p>RestEasy does not knowingly collect information from children under 13. The app is designed for general
-            audiences.</p>
+        <p>RestEasy does not knowingly collect information from children under 13. The app is designed for general audiences.</p>
+
         <h2>Changes to This Policy</h2>
         <p>If we update this privacy policy, we will post the new version here with an updated effective date.</p>
-        <div class="contact">
-            <h2>Contact & Support</h2>
-            <p>Questions about this privacy policy or need support?</p>
-            <p><a href="mailto:support@resteasy.app">support@resteasy.app</a></p>
-        </div>
+
+        <h2>Contact & Support</h2>
+        <p>Questions about this privacy policy or need support?<br>
+        <a href="mailto:support@resteasy.app">support@resteasy.app</a></p>
+
         <div class="footer">
-            <p>© 2024 RestEasy. All rights reserved.</p>
+            © 2024 RestEasy. All rights reserved.
         </div>
     </div>
 </body>
